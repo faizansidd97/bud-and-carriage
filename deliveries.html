@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+      integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./slick-slider/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./slick-slider/slick-theme.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light"
+        id="ftco-navbar"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="./image/logo.png" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#ftco-nav"
+            aria-controls="ftco-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="oi oi-menu"></span> Menu
+          </button>
+
+          <div class="collapse navbar-collapse nav-custom">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="deliveries.html" class="nav-link active">Deliveries</a>
+              </li>
+              <li class="nav-item active">
+                <a href="dispensaries.html" class="nav-link">Dispensaries</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Products</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Deals</a>
+              </li>
+            </ul>
+          </div>
+          <div class="auth-action">
+            <a href="#" class="header-btn">Sign Up</a>
+            <a href="#" class="header-btn">Sign in</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="banner-slider pb-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+              <div class="slider" id="slider">
+                <div
+                  class="slide d-flex flex-column justify-content-center align-items-center"
+                  style="background-image: url(./image/slide-imge.png)"
+                >
+                  <h3>Deliveries</h3>
+                  <!-- <button class="btn-slide">Learn More</button> -->
+                </div>
+                <div
+                  class="slide d-flex flex-column justify-content-center align-items-center"
+                  style="background-image: url(./image/slide-imge.png)"
+                >
+                  <h3>Deliveries</h3>
+                  <!-- <button class="btn-slide">Learn More</button> -->
+                </div>
+                <div
+                  class="slide d-flex flex-column justify-content-center align-items-center"
+                  style="background-image: url(./image/slide-imge.png)"
+                >
+                  <h3>Deliveries</h3>
+                  <!-- <button class="btn-slide">Learn More</button> -->
+                </div>
+                <div
+                  class="slide d-flex flex-column justify-content-center align-items-center"
+                  style="background-image: url(./image/slide-imge.png)"
+                >
+                  <h3>Deliveries</h3>
+                  <!-- <button class="btn-slide">Learn More</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="search-form py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-9 search-bar py-1">
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <input class="w-100 ps-3" placeholder="Search by  Store Name" />
+              <button class="btn-primary">Find Store</button>
+            </div>
+          </div>
+          <div class="row justify-content-center mt-3 custom-gap">
+            <div class="col-2 p-0">
+              <p class="filter-label mb-2">Product Categories</p>
+              <select
+                class="form-select form-select-sm filter-select"
+                aria-label=".form-select-sm example"
+              >
+                <option class="placeholer-color" disabled selected>
+                  Select Product Category
+                </option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-2 p-0">
+              <p class="filter-label mb-2">Amenities</p>
+              <input class="w-100 filter-select" />
+            </div>
+            <div class="col-2 p-0">
+              <p class="filter-label mb-2">Product Categories</p>
+              <select
+                class="form-select form-select-sm filter-select"
+                aria-label=".form-select-sm example"
+              >
+                <option selected disabled>View Type</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-2 p-0">
+              <p class="filter-label mb-2">Distance</p>
+              <select
+                class="form-select form-select-sm filter-select"
+                aria-label=".form-select-sm example"
+              >
+                <option selected disabled>500 Miles</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="container bg-color">
+          <div class="row">
+            <div class="col-4">
+              <h2 class="primary-heading mb-4">Categories</h2>
+            </div>
+            <div class="col-8">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button
+                    class="nav-link active"
+                    id="nav-home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#all"
+                    type="button"
+                    role="tab"
+                    aria-controls="nav-home"
+                    aria-selected="true"
+                  >
+                    All
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="nav-profile-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#deliveries"
+                    type="button"
+                    role="tab"
+                    aria-controls="nav-profile"
+                    aria-selected="false"
+                  >
+                    Deliveries
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="nav-contact-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#dispensaries"
+                    type="button"
+                    role="tab"
+                    aria-controls="nav-contact"
+                    aria-selected="false"
+                  >
+                    Dispensaries
+                  </button>
+                  <button
+                    class="nav-link"
+                    id="nav-contact-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#doctors"
+                    type="button"
+                    role="tab"
+                    aria-controls="nav-contact"
+                    aria-selected="false"
+                  >
+                    Doctors
+                  </button>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="tab-content" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="all"
+              role="tabpanel"
+              aria-labelledby="nav-home-tab"
+            >
+              <div class="row cat-slider">
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(1).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(2).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(3).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(4).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(3).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(4).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="deliveries"
+              role="tabpanel"
+              aria-labelledby="nav-profile-tab"
+            >
+              <div class="row cat-slider">
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(1).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(2).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(3).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(4).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(3).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(4).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="dispensaries"
+              role="tabpanel"
+              aria-labelledby="nav-contact-tab"
+            >
+              <div class="row cat-slider">
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(1).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(2).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(3).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(4).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(3).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(4).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="doctors"
+              role="tabpanel"
+              aria-labelledby="nav-contact-tab"
+            >
+              <div class="row cat-slider">
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(1).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(2).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(3).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(4).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(3).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="category-wrapper text-center">
+                    <img
+                      src="./image/cat(4).png"
+                      class="category-image"
+                      alt="category"
+                    />
+                    <h3 class="category-name">Chastity Gregory</h3>
+                    <p class="category-desc">Dispensary . Recreational</p>
+                    <a href="deliveries-category.html" class="category-button"
+                      >View Details</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="map-section">
+        <div style="width: 100%">
+          <iframe
+            width="100%"
+            height="600"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ><a href="https://www.maps.ie/distance-area-calculator.html"
+              >measure acres/hectares on map</a
+            ></iframe
+          >
+        </div>
+      </section>
+      <section class="phone-section py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <img src="./image/phone_discord 1.png" alt="phone" />
+              <h6 class="fw-bolder pb-4">
+                Get plugged in with the Bud & Carriage Discord & Reddit Profiles
+              </h6>
+
+              <button class="btn-primary me-3">
+                Discord <i class="fa-brands fa-discord"></i>
+              </button>
+
+              <button class="btn-primary">
+                Reddit
+                <i class="fa-brands fa-reddit-alien"></i>
+              </button>
+              <!-- <i class="fa fa-reddit" aria-hidden="true"></i> -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="">
+      <section class="bg-white py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-3">
+              <img src="./image/footerLogo.png" alt="logo" />
+              <p class="mt-4">
+                A community connecting cannabis consumers, patients, retailers,
+                doctors, and brands since 2008
+              </p>
+            </div>
+            <div class="col-3">
+              <h2>About Us</h2>
+            </div>
+            <div class="col-3">
+              <h2>Extra</h2>
+            </div>
+            <div class="col-3">
+              <h2>Contact Us</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <p>&copy; 2023 My Website. All rights reserved.</p> -->
+      <section class="py-3 d-flex align-items-center justify-content-center">
+        <p class="text-center m-0">
+          Copyright © 2021 Bud & Carriage. Bud & Carriage are registered
+          trademarks of Ghost Management Group, LLC. All Rights Reserved.1
+        </p>
+      </section>
+    </footer>
+
+    <script src="./main.js"></script>
+    <script
+      type="text/javascript"
+      src="code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="./slick-slider/slick.js"></script>
+  </body>
+</html>
