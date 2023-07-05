@@ -495,3 +495,57 @@ table.table {
   align-items: center;
 }
 /* Category detail page */
+
+/* Sign in page */
+.signin .filter-select {
+  padding-left: 10px;
+  font-size: 12px;
+}
+.signin .icon-wrapper {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 20px;
+  transition: 0.3s ease-in-out;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.signin .icon-wrapper:hover {
+  box-shadow: 0 5px 15px #00924479;
+}
+.signup-button {
+  width: 177px;
+  height: 44px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.border-left {
+  border-right: 2px solid #009245;
+}
+.upload-wrapper {
+  height: 32px;
+  position: relative;
+  cursor: pointer;
+}
+.upload-wrapper span {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.file-type {
+  opacity: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+/* Sign in page */
+/* Profile Page */
+
+.account-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+/* Profile Page */
